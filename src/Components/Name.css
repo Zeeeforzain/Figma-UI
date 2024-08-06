@@ -1,0 +1,21 @@
+.ttl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.ttl img {
+    width: 18px;
+    height: 18px;
+}
+
+.ttl h3 {
+    font-family: Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: #2D3748;
+}

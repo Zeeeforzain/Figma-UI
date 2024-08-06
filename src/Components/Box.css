@@ -1,0 +1,11 @@
+.box{
+    width: 60%;
+    height: 100vh;
+    margin: 30px auto;
+    border: 10px white solid;
+    background-image: url("/public/Images/cover.png");
+    background-repeat: no-repeat;
+    background-size: 100% 40vh;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px 10px rgb(212, 211, 211);
+}  

@@ -1,0 +1,80 @@
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px;
+}
+
+.nme h5 {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #2D3748;
+    opacity: 0.5;
+}
+
+.nme h4 {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+    text-align: left;
+    color: #2D3748;
+}
+
+.ss {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ss ul li img {
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+}
+.set ul li:hover{
+    box-shadow: 1px 1px 5px 3px #718096;
+}
+
+.set ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.ss ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+
+.ss ul li h4 {
+    font-family: Helvetica;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    color: #718096;
+    cursor: pointer;
+}
+
+.ss input {
+
+    padding: 10px;
+    border-radius: 12px;
+    border: 0.2px solid #718096;
+}
+
+input::placeholder {
+    color: #718096;
+}

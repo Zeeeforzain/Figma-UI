@@ -1,0 +1,80 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+}
+.menu ul li img{
+  width: 11px;
+  height: 11px;
+  align-items: center;
+}
+.menu li{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu li h3 {
+  list-style: none;
+  font-family: Helvetica;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 15px;
+  text-align: center;
+  color: #fff;
+}
+.menu ul li:hover{
+  text-decoration: 2px solid white underline;
+  text-underline-offset: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.name h3{
+  font-family: Helvetica;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  
+}
+.name img{
+  width: 22px;
+  height: 22px;
+  align-items: center;
+  margin-right: 3px ;
+}
+.button{
+  width:120px ;
+  height: 28px;
+  border-radius: 15px;
+  border: none;
+  background-color: #fff;
+  color: #2D3748;
+  cursor: pointer;
+  padding: 0px 8px 0px 8px;
+}
+.button h2{
+  font-family: Helvetica;
+font-size: 10px;
+font-weight: 700;
+line-height: 15px;
+text-align: center;
+color: #2D3748;
+}
