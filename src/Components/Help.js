@@ -3,7 +3,7 @@ import './Help.css';
 function Help(){
     return(
         <>
-        <div class="help">
+        <div className="help">
             <div className="ques">
                 <img src="Images/help.png" alt="help" />
             </div>

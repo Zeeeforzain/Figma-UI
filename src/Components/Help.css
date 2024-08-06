@@ -13,7 +13,6 @@
 }
 
 .ques {
-    /* margin: 10px 10px; */
     background-color: white;
     border-radius: 10px;
     width: 30px;
@@ -23,8 +22,7 @@
     align-items: center;
 }
 
-.nm {
-    /* margin-left: 10px; */
+.nm{
     display: flex;
     flex-direction: column;
     justify-content: space-between;

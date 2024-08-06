@@ -33,7 +33,7 @@ function Table() {
               status="Online"
               date="12/3/12"
             />
-            <Collection
+            {/* <Collection
               author="Projects"
               col1="Companies"
               col2="Budget"
@@ -46,7 +46,7 @@ function Table() {
               
               status="Working"
               date="12/3/12"
-            />
+            /> */}
           </div>
         </div>
       </div>
