@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 10px;
+    width: 70%;
 }
 
 .ttl img {

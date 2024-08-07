@@ -1,0 +1,12 @@
+.ProfileBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    /* align-items: center; */
+    width: 32%;
+    border: 1px solid chartreuse;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: #fff;
+
+}

@@ -1,0 +1,17 @@
+.profInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    border: 1px solid saddlebrown;
+}
+.infoList ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.infoList ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
