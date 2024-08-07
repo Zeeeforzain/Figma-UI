@@ -32,7 +32,7 @@ function Form(props) {
           <h5>Remember me</h5>
         </div>
 
-        <button className="sign" onClick={()=>{navigate("/Table")}}><h3>{props.bt}</h3></button>
+        <button className="sign" onClick={()=>{navigate("/Profile")}}><h3>{props.bt}</h3></button>
         <div className="already">
           <h6 className="alrdy">{props.alrdy}</h6>
 

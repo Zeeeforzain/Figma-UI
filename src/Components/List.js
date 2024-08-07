@@ -5,7 +5,7 @@ function List() {
   const navigate = useNavigate();
   return (
     <>
-    <div class="list">
+    <div className="list">
             <ul>
               <li>
               <div className="pic"><img src="Images/Dashboard.png" alt="logo" /></div>
@@ -30,7 +30,7 @@ function List() {
             <ul>
               <li>
               <div className="pic"><img src="Images/Profil.png" alt="logo" /></div>
-                <h5>Profile</h5>
+                <h5 onClick={()=>{navigate("/Profile")}}>Profile</h5>
               </li>
               <li>
               <div className="pic"><img src="Images/sgnin.png" alt="logo" /></div>

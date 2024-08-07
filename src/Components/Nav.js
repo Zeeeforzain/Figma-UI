@@ -18,7 +18,7 @@ function Navbar() {
             </li>
             <li>
               <img src="/Images/Profile.png" alt="logo" />
-              <h3>Profile</h3>
+              <h3 onClick={()=>{navigate("/Profile")}}>Profile</h3>
             </li>
             <li onClick={()=>{navigate("/signIn")}}>
               <img src="/Images/Sign In.png" alt="logo" />

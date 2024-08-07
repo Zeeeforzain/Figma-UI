@@ -1,7 +1,7 @@
 import React from "react";
 import "./Head.css";
 import {useNavigate} from "react-router-dom";
-function Head() {
+function Head(props) {
   const navigate = useNavigate();
   return (
     <>
@@ -17,14 +17,14 @@ function Head() {
           <div class="set">
             <ul>
               <li>
-                <img src="Images/prof.png" alt="signin" />
+                <img src={props.prof} alt="signin" />
                 <h4 onClick={()=>{navigate("/signIn")}}>Sign In</h4>
               </li>
               <li>
-                <img src="Images/Setting.png" alt="setting" />
+                <img src={props.setting} alt="setting" />
               </li>
               <li>
-                <img src="Images/notification.png" alt="Noti" />
+                <img src={props.notification} alt="Noti" />
               </li>
             </ul>
           </div>

@@ -1,0 +1,66 @@
+.profMenu{
+    margin-top: 8%;
+    background-color: #F8F9FA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid darkblue; */
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.intro{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid darkgreen; */
+}
+.intro img{
+    width: 70px;
+    height: 70px;
+}
+.intro h3{
+    color: #2D3748;
+    font-family: Helvetica;
+    size: 18px;
+    font-weight: 700;
+}
+.intro h5{
+    color: #2D3748;
+    font-size:14px;
+    font-family: Helvetica;
+    /* font-weight: 500; */
+}
+.profItem{
+    width: 35%;
+    padding: 15px;
+}
+.profItem ul{
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    /* border: 1px solid darkgreen; */
+}
+.profItem ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 5vh;
+    color: #2D3748;
+    font-family:  Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+}
+.profItem ul li:hover{
+    background-color:white;
+    opacity: 1;
+    border-radius: 10px;
+    cursor: pointer;
+}
