@@ -3,7 +3,7 @@ import "./ProfileInfo.css";
 export default function ProfileInfo(props) {
   return (
     <div className="profInfo">
-      <p>{props.about}</p>
+     <div> <p>{props.about}</p></div>
       <div className="infoList">
         <ul>
           <li>
@@ -12,13 +12,13 @@ export default function ProfileInfo(props) {
           </li>
           <li>
             <h4>Mobile:</h4>
-            <h5></h5>
-            {props.mobile}
+            <h5>{props.mobile}</h5>
+            
           </li>
           <li>
             <h4>Email:</h4>
-            <h5></h5>
-            {props.email}
+            <h5>{props.email}</h5>
+            
           </li>
           <li>
             <h4>Location:</h4>

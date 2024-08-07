@@ -8,7 +8,7 @@ export default function Conversation(props) {
             <div><h4>{props.name}</h4>
             <h5>{props.msg}</h5></div>
         </div>
-        <div><h6>REPLY</h6></div>
+        <div className='reply'><h6>REPLY</h6></div>
     </div>
   );
 }
