@@ -1,6 +1,7 @@
 import React from "react";
 import "./Form.css";
 import {useNavigate} from "react-router-dom";
+import Button from "./Button";
 function Form(props) {
   const navigate = useNavigate();
   return (
@@ -27,10 +28,7 @@ function Form(props) {
           </label>
           <input type="password" id="pass" placeholder="Enter Your password" />
         </form>
-        <div className="btn">
-          <input type="checkbox" class="theme-checkbox" />
-          <h5>Remember me</h5>
-        </div>
+        <Button btntext="Remember Me"/>
 
         <button className="sign" onClick={()=>{navigate("/Profile")}}><h3>{props.bt}</h3></button>
         <div className="already">

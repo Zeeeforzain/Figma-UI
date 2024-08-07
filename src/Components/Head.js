@@ -5,16 +5,16 @@ function Head(props) {
   const navigate = useNavigate();
   return (
     <>
-      <div class="head">
-        <div class="nme">
+      <div className="head">
+        <div className="nme">
           <h5>Pages</h5>
           <h4>Tables</h4>
         </div>
-        <div class="ss">
+        <div className="ss">
           <div>
             <input type="search" name="Search" id="" placeholder="Type here..."/>
           </div>
-          <div class="set">
+          <div className="set">
             <ul>
               <li>
                 <img src={props.prof} alt="signin" />
