@@ -1,0 +1,57 @@
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%;
+    margin-top: 15px;
+    height: 39vh;
+}
+.projects img{
+    width: 250px;
+    height: 130px;
+    border-radius:15px ;
+    cursor: pointer;
+}
+.projects h2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2D3748;
+    font-weight: 700;
+    cursor: pointer;
+}
+.projects h5{
+    margin-top: 10px;
+}
+.projects h4{
+    font-size: 11px;
+    color: #A0AEC0;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    
+}
+.viewAll{
+    display: flex;
+    flex-direction: row;
+    width: 100% ;
+    margin-top: 15px;
+    height: 5vh;
+    align-items: center;
+    justify-content: space-between;
+}
+.viewAll img{
+    height: 23px;
+    width: 59px;
+    cursor: pointer;
+}
+.viewAll .projectBtn{
+    width: 70px;
+    height: 4vh;
+    background-color: transparent;
+    border:2px solid #4FD1C5;
+    border-radius: 7px;
+    color: #4FD1C5;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}

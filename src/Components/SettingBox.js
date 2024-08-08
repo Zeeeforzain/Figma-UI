@@ -1,6 +1,5 @@
 import React from 'react';
 import './SettingBox.css';
-import Button from "./Button";
  function SettingBox({title, children}) {
   return (
     <div className='SettingBox'>
